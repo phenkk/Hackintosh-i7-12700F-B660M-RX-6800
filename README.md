@@ -148,9 +148,9 @@
          └── OpenCore.efi
    ```
 
-4. `NVRAM > 7C436110-AB2A-4BBB-A880-FE41995C9F82`
+4. `NVRAM` > `7C436110-AB2A-4BBB-A880-FE41995C9F82`
    
-   boot-args > `agdpmod=pikera e1000=0 keepsyms=1 debug=0x100 -v`
+   `boot-args` > `agdpmod=pikera e1000=0 keepsyms=1 debug=0x100 -v`
 
 ---
 
