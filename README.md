@@ -64,7 +64,7 @@
 
 - [x] Sleep/Wake/Restart/Shut Down
 
-- [x] Display Port Audio (HDMI Audio not tested yet)
+- [x] DisplayPort Audio (HDMI Audio not tested yet)
 
 - [x] Boot-chime
 
