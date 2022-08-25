@@ -16,7 +16,7 @@
   
   - Audio Realtek ALC897
   
-  - Intel Ethernet 2.5GbE LAN l225-V (3)
+  - Intel Ethernet 2.5GbE LAN l225-V
 
 - Kingston Fury Beast 16GB Dual Channel DDR4 3200MHz [[link]](https://www.kingston.com/en/memory/gaming/kingston-fury-beast-ddr4-memory)
 
