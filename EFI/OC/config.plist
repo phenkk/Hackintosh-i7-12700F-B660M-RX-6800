@@ -300,7 +300,7 @@
 				<key>device_type</key>
 				<string>Non-Volatile memory controller</string>
 				<key>model</key>
-				<string>XPG SX8200 Pro NVMe SSD</string>
+				<string>WD Black SN850 NVMe SSD</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
 			<dict>
@@ -340,7 +340,7 @@
 				<key>device_type</key>
 				<string>Non-Volatile memory controller</string>
 				<key>model</key>
-				<string>WD Black SN850 NVMe SSD</string>
+				<string>Samsung 980 Pro NVMe SSD</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
