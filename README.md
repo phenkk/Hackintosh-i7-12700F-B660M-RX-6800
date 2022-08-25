@@ -22,21 +22,21 @@
 
 - XFX Speedster Qick AMD Radeon RX 6600 XT 8GB [[link]](https://www.xfxforce.com/shop/xfx-speedster-qick-308-amd-radeon-tm-rx-6600-xt-black)
 
-- Samsung 980 Pro NVMe 500GB (Windows 11) [[link]]([980 PRO PCIe 4.0 NVMe SSD 500GB Memory &amp; Storage - MZ-V8P500B/AM | Samsung US](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/980-pro-pcie-4-0-nvme-ssd-500gb-mz-v8p500b-am/)
+- Samsung 980 Pro NVMe 500GB (Windows 11) [[link]](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/980-pro-pcie-4-0-nvme-ssd-500gb-mz-v8p500b-am/)
 
-- WD Black SN850 NVMe 500 GB (macOS 12) [[link]]([WD_BLACK™ SN850 NVMe™ SSD PCIe® Gen4 for PC or Laptop | Western Digital](https://www.westerndigital.com/products/internal-drives/wd-black-sn850-nvme-ssd#WDS500G1X0E)
+- WD Black SN850 NVMe 500 GB (macOS 12) [[link]](https://www.westerndigital.com/products/internal-drives/wd-black-sn850-nvme-ssd#WDS500G1X0E)
 
-- Midasforce SSD SATA 1TB (Storage) [[link]]([Midasforce](https://midasforce.com/product/midasforce-ssd-super-lightning)
+- Midasforce SSD SATA 1TB (Storage) [[link]](https://midasforce.com/product/midasforce-ssd-super-lightning)
 
 - Broadcom BCM9430 PCIe Adapter WIFI + Bluetooth [[link]](https://www.tokopedia.com/galericomputerba/bcm943602cs-pci-e-wifi-bluetooth-4-0-dekstop-hackintosh?extParam=ivf%3Dfalse%26src%3Dsearch)
 
-- Lenovo Gaming Monitor G27-20 Full HD 144Hz [[link]]([Monitor Lenovo Gaming 27&quot; FHD: G27-20 | Lenovo Indonesia](https://www.lenovo.com/id/in/monitors/G27-20/)
+- Lenovo Gaming Monitor G27-20 Full HD 144Hz [[link]](https://www.lenovo.com/id/in/monitors/G27-20/)
 
 - dbE 1080p Webcam [[link]](https://www.tokopedia.com/dbeofficial/dbe-c100-full-hd-1080p-webcam-30-fps-glass-lens-2mp-autofocus)
 
 - Enermax Revolution D.F. 650W 80+ Gold Full-Modular [[link]](https://www.enermax.com/en/products/revolution-d.f.-650w)
 
-- Deepcool Macube 110 White Case [[link]]([MACUBE 110 WH - DeepCool](https://www.deepcool.com/products/Cases/fulltowercases/Macube-110-White-Micro-ATX-Case/2021/4669.shtml)
+- Deepcool Macube 110 White Case [[link]](https://www.deepcool.com/products/Cases/fulltowercases/Macube-110-White-Micro-ATX-Case/2021/4669.shtml)
 
 ---
 
@@ -82,7 +82,7 @@
 
 1. Read, learn, and understand the Dortania's [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) and this [Reddit](https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/?utm_source=share&utm_medium=web2x&context=3) post.
    
-   - Setup follow [Comet Lake Configs]([Desktop Comet Lake | OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html)
+   - Setup follow [Comet Lake Configs](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html)
    - SMBios used `MacPro7,1`
    
    
@@ -98,7 +98,7 @@
    | SSDT-PLUG-ALT.aml | [Prebuilt](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-PLUG-ALT.dsl)                      | Required                |
    | SSDT-SBUS.aml     | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html#edits-to-the-sample-ssdt)       | Optional                |
    
-   **note:** *I recommend to manually dumping your DSDT and compile your own SSDT. You can use [SSDTTIme]([GitHub - corpnewt/SSDTTime: SSDT/DSDT hotpatch attempts.](https://github.com/corpnewt/SSDTTime)) (Windows) or [MaciASL]([GitHub - acidanthera/MaciASL: ACPI editing IDE for macOS](https://github.com/acidanthera/MaciASL)) (macOS).*
+   **Note:** I recommend to manually dumping your DSDT and compile your own SSDT. You can use [SSDTTIme]((https://github.com/corpnewt/SSDTTime)) (Windows) or [MaciASL](https://github.com/acidanthera/MaciASL) (macOS).
    
    
 
@@ -164,9 +164,9 @@
 
 - Fix Sleep/Wake:
   
-  - [SSDT-GPRW.aml]([OpenCore-Post-Install/SSDT-GPRW.aml at master · dortania/OpenCore-Post-Install · GitHub](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-GPRW.aml) 
+  - [SSDT-GPRW.aml]([OpenCore-Post-Install/SSDT-GPRW.aml at master · dortania/OpenCore-Post-Install · GitHub](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-GPRW.aml))
   
-  - `ACPI > Patch` [change Method (GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml]([OpenCore-Post-Install/GPRW-Patch.plist at master · dortania/OpenCore-Post-Install · GitHub](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/GPRW-Patch.plist)
+  - `ACPI > Patch` [change Method (GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml]((https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/GPRW-Patch.plist)
   
   - `ACPI > Patch` Change `ADBG to XDBG`:
     
@@ -184,7 +184,7 @@
 
 - Disable Radeon Zero RPM (Optional):
   
-  - Just follow this Github guide from [perez987]([GitHub - perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable: XFX RX 6600 XT on macOS 12.2.1 and Zero RPM with SoftPowerPlayTable](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
+  - Just follow this Github guide from [perez987](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
 
 ---
 
@@ -224,10 +224,10 @@
 
 ## Credits:
 
-- [OpenCore Dortania]([OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/))
+- [OpenCore Dortania](https://dortania.github.io/OpenCore-Install-Guide/)
 
 - [OpenCore Alder Lake (12th-Gen Intel) Hackintosh Guidance](https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/?utm_source=share&utm_medium=web2x&context=3https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/?utm_source=share&utm_medium=web2x&context=3)
 
-- [XFX RX 6600 XT on macOS Monterey and Zero RPM with SoftPowerPlayTable]([GitHub - perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable: XFX RX 6600 XT on macOS 12.2.1 and Zero RPM with SoftPowerPlayTable](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
+- [XFX RX 6600 XT on macOS Monterey and Zero RPM with SoftPowerPlayTable](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
 
 - [Google Translate](https://translate.google.com/?hl=en&tab=TT&sl=id&tl=en&text=Wkwkwk%20land&op=translate) *for helping me to write this guide, as English is not my native language*
