@@ -84,8 +84,6 @@
    
    - Setup follow [Comet Lake Configs](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html)
    - SMBios used `MacPro7,1`
-   
-   
 
 2. My ACPI Table:
    
@@ -99,8 +97,6 @@
    | SSDT-SBUS.aml     | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html#edits-to-the-sample-ssdt)       | Optional                |
    
    **Note:** I recommend to manually dumping your DSDT and compile your own SSDT. You can use [SSDTTIme](https://github.com/corpnewt/SSDTTime) (Windows) or [MaciASL](https://github.com/acidanthera/MaciASL) (macOS).
-   
-   
 
 3. My EFI Folder Structure:
    
@@ -152,8 +148,6 @@
          └── OpenCore.efi
    ```
 
-
-
 4. `NVRAM > 7C436110-AB2A-4BBB-A880-FE41995C9F82`
    
    boot-args > `agdpmod=pikera e1000=0 keepsyms=1 debug=0x100 -v`
@@ -164,7 +158,7 @@
 
 - Fix Sleep/Wake:
   
-  - [SSDT-GPRW.aml]((https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-GPRW.aml)
+  - [SSDT-GPRW.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-GPRW.aml)
   
   - `ACPI > Patch` [change Method (GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/GPRW-Patch.plist)
   
@@ -173,14 +167,10 @@
     | TableSignature | OemTableId   | TableLength | Find             | Replace          | Count | Enabled | Comment             |
     |:--------------:|:------------:|:-----------:|:----------------:|:----------------:|:-----:|:-------:|:-------------------:|
     | 53534454       | 475357417070 | 0           | 4303141941444247 | 4303141958444247 | 1     | true    | Change ADBG to XDBG |
-    
-    
 
 - Fix High CPU Usage after Wake:
   
   - `Kernel > Quirks > AppleXcpmCfgLock` [Disabled]
-    
-    
 
 - Disable Radeon Zero RPM (Optional):
   
@@ -210,8 +200,6 @@
   + APP Center Download & Install
   
   + LEDs in System Power On State (Optional) ~~just for aesthetic of my PC lol~~
-    
-    
 
 * Enabled:
   
