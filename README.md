@@ -1,0 +1,1 @@
+# Hackintosh-Intel-Alder-Lake-Core-i7-12700F-Gigabyte-B660M-Aorus-Pro-DDR4-Radeon-RX-6600-XT
