@@ -160,9 +160,9 @@
   
   - [SSDT-GPRW.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-GPRW.aml)
   
-  - `ACPI > Patch` [change Method (GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/GPRW-Patch.plist)
+  - `ACPI` > `Patch` [change Method (GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/GPRW-Patch.plist)
   
-  - `ACPI > Patch` Change `ADBG to XDBG`:
+  - `ACPI` > `Patch` Change `ADBG to XDBG`:
     
     | TableSignature | OemTableId   | TableLength | Find             | Replace          | Count | Enabled | Comment             |
     |:--------------:|:------------:|:-----------:|:----------------:|:----------------:|:-----:|:-------:|:-------------------:|
@@ -170,7 +170,7 @@
 
 - Fix High CPU Usage after Wake:
   
-  - `Kernel > Quirks > AppleXcpmCfgLock` [Disabled]
+  - `Kernel` > `Quirks` > `AppleXcpmCfgLock` [Disabled]
 
 - Disable Radeon Zero RPM (Optional):
   
