@@ -164,9 +164,9 @@
 
 - Fix Sleep/Wake:
   
-  - [SSDT-GPRW.aml]([OpenCore-Post-Install/SSDT-GPRW.aml at master · dortania/OpenCore-Post-Install · GitHub](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-GPRW.aml))
+  - [SSDT-GPRW.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-GPRW.aml)
   
-  - `ACPI > Patch` [change Method (GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml]((https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/GPRW-Patch.plist)
+  - `ACPI > Patch` [change Method (GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/GPRW-Patch.plist)
   
   - `ACPI > Patch` Change `ADBG to XDBG`:
     
