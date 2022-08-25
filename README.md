@@ -98,7 +98,7 @@
    | SSDT-PLUG-ALT.aml | [Prebuilt](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-PLUG-ALT.dsl)                      | Required                |
    | SSDT-SBUS.aml     | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html#edits-to-the-sample-ssdt)       | Optional                |
    
-   **Note:** I recommend to manually dumping your DSDT and compile your own SSDT. You can use [SSDTTIme]((https://github.com/corpnewt/SSDTTime)) (Windows) or [MaciASL](https://github.com/acidanthera/MaciASL) (macOS).
+   **Note:** I recommend to manually dumping your DSDT and compile your own SSDT. You can use [SSDTTIme](https://github.com/corpnewt/SSDTTime) (Windows) or [MaciASL](https://github.com/acidanthera/MaciASL) (macOS).
    
    
 
@@ -164,9 +164,9 @@
 
 - Fix Sleep/Wake:
   
-  - [SSDT-GPRW.aml]([OpenCore-Post-Install/SSDT-GPRW.aml at master · dortania/OpenCore-Post-Install · GitHub](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-GPRW.aml))
+  - [SSDT-GPRW.aml]([OpenCore-Post-Install/SSDT-GPRW.aml at master · dortania/OpenCore-Post-Install · GitHub](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-GPRW.aml)
   
-  - `ACPI > Patch` [change Method (GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml]((https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/GPRW-Patch.plist)
+  - `ACPI > Patch` [change Method (GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/GPRW-Patch.plist)
   
   - `ACPI > Patch` Change `ADBG to XDBG`:
     
