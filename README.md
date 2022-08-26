@@ -174,7 +174,7 @@
 
 - Disable Radeon Zero RPM (Optional):
   
-  - Just follow this Github guide from [perez987](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
+  - Just follow this [Github guide](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
 
 ---
 
@@ -217,5 +217,3 @@
 - [OpenCore Alder Lake (12th-Gen Intel) Hackintosh Guidance](https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/?utm_source=share&utm_medium=web2x&context=3https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/?utm_source=share&utm_medium=web2x&context=3)
 
 - [XFX RX 6600 XT on macOS Monterey and Zero RPM with SoftPowerPlayTable](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
-
-- [Google Translate](https://translate.google.com/?hl=en&tab=TT&sl=id&tl=en&text=Wkwkwk%20land&op=translate) *for helping me to write this guide, as English is not my native language*
