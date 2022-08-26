@@ -7,7 +7,7 @@
 | OpenCore   | 0.8.3   | MacPro7,1 | Monterey | 12.5.1  | 25/08/2022   |
 
 ---
-![alt text](https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/1.png =250)
+!(https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/1.png =250x)
 ![alt text](https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/2.png)
 ![alt text](https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/3.png)
 ![alt text](https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/4.png)
