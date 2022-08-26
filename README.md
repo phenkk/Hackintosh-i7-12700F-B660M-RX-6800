@@ -7,12 +7,13 @@
 | OpenCore   | 0.8.3   | MacPro7,1 | Monterey | 12.5.1  | 25/08/2022   |
 
 ---
-![](https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/1.png)
-![alt text](https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/2.png)
-![alt text](https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/3.png)
-![alt text](https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/4.png)
-![alt text](https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/5.jpg)
-![alt text](https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/6.jpg)
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/1.png" width="500">
+
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/2.png" width="500">
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/3.png" width="500">
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/4.png" width="500">
+
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/5.jpg" width="250"> <img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/6.jpg" width="250">
 
 ## Specifications:
 
