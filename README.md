@@ -126,7 +126,6 @@
          │   ├── CPUFriendDataProvider.kext
          │   ├── CpuTopologyRebuild.kext
          │   ├── Lilu.kext
-         │   ├── NVMeFix.kext
          │   ├── RestrictEvents.kext
          │   ├── SMCProcessor.kext
          │   ├── SMCSuperIO.kext
