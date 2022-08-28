@@ -135,8 +135,10 @@
          │   ├── CpuTopologyRebuild.kext
          │   ├── Lilu.kext
          │   ├── NVMeFix.kext
+         │   ├── RadeonSensor.kext
          │   ├── RestrictEvents.kext
          │   ├── SMCProcessor.kext
+         │   ├── SMCRadeonGPU.kext
          │   ├── SMCSuperIO.kext
          │   ├── USBMap.kext
          │   ├── VirtualSMC.kext
