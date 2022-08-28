@@ -60,7 +60,7 @@
 
 - [x] Bluetooth
 
-- [x] Audio In/Out
+- [x] Audio In/Out (Motherboard and Front Panel)
 
 - [x] All USB Ports
 
