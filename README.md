@@ -178,9 +178,7 @@
     |:--------------:|:------------:|:-----------:|:----------------:|:----------------:|:-----:|:-------:|:-------------------:|
     | 53534454       | 475357417070 | 0           | 4303141941444247 | 4303141958444247 | 1     | true    | Change ADBG to XDBG |
 
-- Fix High CPU Usage after Wake:
-  
-  - `Kernel` > `Quirks` > `AppleXcpmCfgLock` [Disabled]
+- 
 
 - Disable Radeon Zero RPM (Optional):
   
