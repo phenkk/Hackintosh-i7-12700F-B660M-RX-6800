@@ -135,10 +135,8 @@
          │   ├── CpuTopologyRebuild.kext
          │   ├── Lilu.kext
          │   ├── NVMeFix.kext
-         │   ├── RadeonSensor.kext
          │   ├── RestrictEvents.kext
          │   ├── SMCProcessor.kext
-         │   ├── SMCRadeonGPU.kext
          │   ├── SMCSuperIO.kext
          │   ├── USBMap.kext
          │   ├── VirtualSMC.kext
@@ -178,11 +176,11 @@
     |:--------------:|:------------:|:-----------:|:----------------:|:----------------:|:-----:|:-------:|:-------------------:|
     | 53534454       | 475357417070 | 0           | 4303141941444247 | 4303141958444247 | 1     | true    | Change ADBG to XDBG |
 
-- 
-
 - Disable Radeon Zero RPM (Optional):
   
   - Just follow this [Github guide](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
+
+- 
 
 ---
 
