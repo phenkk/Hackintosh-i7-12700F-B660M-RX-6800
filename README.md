@@ -4,7 +4,7 @@
 
 | Bootloader | Version | Boot Mode | SMBios    | macOS    | Version | Release Date |
 |:----------:|:-------:|:---------:|:---------:|:--------:|:-------:|:------------:|
-| OpenCore   | 0.8.3   | UEFI      | MacPro7,1 | Monterey | 12.5.1  | 25/08/2022   |
+| OpenCore   | 0.8.4   | UEFI      | MacPro7,1 | Monterey | 12.5.1  | 06/09/2022   |
 
 ---
 
@@ -179,8 +179,6 @@
 - Disable Radeon Zero RPM (Optional):
   
   - Just follow this [Github guide](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
-
-
 
 ---
 
