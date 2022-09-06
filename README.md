@@ -106,7 +106,7 @@
    
    **Note:** I recommend to manually dumping your DSDT and compile your own SSDT. You can use [SSDTTIme](https://github.com/corpnewt/SSDTTime) (Windows) or [MaciASL](https://github.com/acidanthera/MaciASL) (macOS).
 
-3. My EFI Folder Structure:
+3. EFI Folder Structure:
    
    ```
    ─ EFI
