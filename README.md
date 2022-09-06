@@ -22,7 +22,7 @@
 
 - Gigabyte B660M Aorus Pro DDR4 [[link]](https://www.gigabyte.com/Motherboard/B660M-AORUS-PRO-DDR4-rev-10#kf)
   
-  - Audio Realtek [ALC897](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) `alcid=11` or `alcid=66`
+  - Audio Realtek [ALC897](https://github.com/acidanthera/AppleALC/wiki/Supported-codecs) `alcid=11`
   
   - Intel Ethernet 2.5GbE LAN l225-V
 
