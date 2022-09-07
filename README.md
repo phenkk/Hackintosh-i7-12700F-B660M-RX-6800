@@ -178,6 +178,8 @@
     |:--------------:|:------------:|:-----------:|:----------------:|:----------------:|:-----:|:-------:|:-------------------:|
     | 53534454       | 475357417070 | 0           | 4303141941444247 | 4303141958444247 | 1     | true    | Change ADBG to XDBG |
 
+- Fix Intel Alder Lake CPU Frequency by using CPUFriendDataProvider.kext provided [here](https://github.com/dortania/bugtracker/issues/190)
+
 - Disable Radeon Zero RPM (Optional):
   
   - Just follow this [Github guide](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
