@@ -190,6 +190,8 @@
   
   - Just follow this [Github guide](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
 
+- Don't turn on Screen Time in System Preferences, I found that feature causing high cpu frequency and slow down sytem (beach ball cursor) after being idle for several minute, after display going off, or after sleep and wake (it's random).
+
 ---
 
 ### BIOS:
