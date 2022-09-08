@@ -180,6 +180,12 @@
 
 - Fix Intel Alder Lake CPU Frequency by using CPUFriendDataProvider.kext provided [here](https://github.com/dortania/bugtracker/issues/190)
 
+- Disable SMBIOS injection into "non-Apple" OSes (ex. Windows) if you boot through OpenCore boot picker, but it breaks Bootcamp compatibility.
+  
+  - `Kernel` > `Quirks` > `CustomSMBIOSGuid` > `True` (default `False`)
+  
+  - `PlatformInfo` > `UpdateSMBIOSMode` > `Custom` (default `Create`)
+
 - Disable Radeon Zero RPM (Optional):
   
   - Just follow this [Github guide](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
