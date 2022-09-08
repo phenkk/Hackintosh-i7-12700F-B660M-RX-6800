@@ -93,7 +93,7 @@
    - Setup follow [Comet Lake Configs](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html)
    - SMBIOS used `MacPro7,1`
 
-2. My ACPI Table:
+2. ACPI Table:
    
    | SSDT              | Method                                                                                                                            | Description             |
    | ----------------- |:---------------------------------------------------------------------------------------------------------------------------------:| ----------------------- |
