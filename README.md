@@ -2,7 +2,7 @@
 
 ---
 
-| Bootloader | Version | Boot Mode | SMBios    | macOS    | Version | Release Date |
+| Bootloader | Version | Boot Mode | SMBIOS    | macOS    | Version | Release Date |
 |:----------:|:-------:|:---------:|:---------:|:--------:|:-------:|:------------:|
 | OpenCore   | 0.8.4   | UEFI      | MacPro7,1 | Monterey | 12.5.1  | 06/09/2022   |
 
@@ -91,7 +91,7 @@
 1. Read, learn, and understand the Dortania's [OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) and this [Reddit](https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/?utm_source=share&utm_medium=web2x&context=3) post.
    
    - Setup follow [Comet Lake Configs](https://dortania.github.io/OpenCore-Install-Guide/config.plist/comet-lake.html)
-   - SMBios used `MacPro7,1`
+   - SMBIOS used `MacPro7,1`
 
 2. My ACPI Table:
    
