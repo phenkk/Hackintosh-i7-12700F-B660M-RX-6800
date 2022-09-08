@@ -114,7 +114,7 @@
      │   └── BOOTx64.efi
      └── OC
          ├── ACPI
-         │   ├── SSDT-AWAC-DISABLE.aml
+         │   ├── SSDT-AWAC.aml
          │   ├── SSDT-EC-USBX.aml
          │   ├── SSDT-GPRW.aml
          │   ├── SSDT-HPET.aml
