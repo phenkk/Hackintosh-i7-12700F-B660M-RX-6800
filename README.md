@@ -95,14 +95,14 @@
 
 2. My ACPI Table:
    
-   | SSDT                  | Method                                                                                                                            | Description             |
-   | --------------------- |:---------------------------------------------------------------------------------------------------------------------------------:| ----------------------- |
-   | SSDT-AWAC-DISABLE.aml | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/awac-methods/manual.html#determining-which-ssdt-you-need) | Required                |
-   | SSDT-EC-USBX.aml      | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-methods/manual.html#edits-to-the-sample-ssdt)          | Required                |
-   | SSDT-GPRW.aml         | [Prebuilt](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-GPRW.aml)                               | Required for Sleep/Wake |
-   | SSDT-HPET.aml         | [SSDTTime](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html)                                               | Optional                |
-   | SSDT-PLUG-ALT.aml     | [Prebuilt](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-PLUG-ALT.dsl)                      | Required                |
-   | SSDT-SBUS.aml         | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html#edits-to-the-sample-ssdt)       | Optional                |
+   | SSDT              | Method                                                                                                                            | Description             |
+   | ----------------- |:---------------------------------------------------------------------------------------------------------------------------------:| ----------------------- |
+   | SSDT-AWAC.aml     | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/awac-methods/manual.html#determining-which-ssdt-you-need) | Required                |
+   | SSDT-EC-USBX.aml  | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-methods/manual.html#edits-to-the-sample-ssdt)          | Required                |
+   | SSDT-GPRW.aml     | [Prebuilt](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-GPRW.aml)                               | Required for Sleep/Wake |
+   | SSDT-HPET.aml     | [SSDTTime](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html)                                               | Optional                |
+   | SSDT-PLUG-ALT.aml | [Prebuilt](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-PLUG-ALT.dsl)                      | Required                |
+   | SSDT-SBUS.aml     | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html#edits-to-the-sample-ssdt)       | Optional                |
    
    **Note:** I recommend to manually dumping your DSDT and compile your own SSDT. You can use [SSDTTIme](https://github.com/corpnewt/SSDTTime) (Windows) or [MaciASL](https://github.com/acidanthera/MaciASL) (macOS).
 
