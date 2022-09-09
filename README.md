@@ -134,7 +134,6 @@
          │   ├── CPUFriendDataProvider.kext
          │   ├── CpuTopologyRebuild.kext
          │   ├── Lilu.kext
-         │   ├── NVMeFix.kext
          │   ├── RadeonSensor.kext
          │   ├── RestrictEvents.kext
          │   ├── SMCProcessor.kext
