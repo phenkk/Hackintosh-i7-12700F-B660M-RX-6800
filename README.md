@@ -189,8 +189,6 @@
   
   - Just follow this [Github guide](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
 
-- 
-
 ---
 
 ### BIOS:
