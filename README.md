@@ -104,7 +104,7 @@
    | SSDT-PLUG-ALT.aml | [Prebuilt](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-PLUG-ALT.dsl)                | Required                |
    | SSDT-SBUS.aml     | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html#edits-to-the-sample-ssdt) | Optional                |
    
-   **Note:** I recommend to manually dumping your DSDT and compile your own SSDT. You can use [SSDTTIme](https://github.com/corpnewt/SSDTTime) (Windows) or [MaciASL](https://github.com/acidanthera/MaciASL) (macOS).
+   **Note:** *I recommend to manually dumping your DSDT and compile your own SSDT using [SSDTTIme](https://github.com/corpnewt/SSDTTime) (Windows/Linux).*
 
 3. EFI Folder Structure:
    
@@ -189,6 +189,8 @@
   
   - Just follow this [Github guide](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
 
+- I decide to not using `NVMeFix.kext` since it causing random issue related to storage, like high disk usage, making macOS slow (beachball cursor), and random system fail to boot. After remove `NVMeFix.kext` the problem gone so far.
+
 ---
 
 ### BIOS:
@@ -196,7 +198,7 @@
 **Note:** *Load Optimized Default Settings first before making any BIOS settings. In my case I just need to change the option like shown below, as other needed options has enabled/disabled by default.*
 
 | Motherboard                    | Gigabyte B660M Aorus Pro DDR4 Rev. 1.0 |
-| ------------------------------ | -------------------------------------- |
+|:------------------------------ | -------------------------------------- |
 | BIOS Version                   | F6<br/>Checksum: 8CF0                  |
 | BIOS Date                      | 12/08/2022                             |
 | Extreme Memory Profile (X.M.P) | Profile 1                              |
