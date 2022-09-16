@@ -95,14 +95,15 @@
 
 2. ACPI Table:
    
-   | SSDT              | Method                                                                                                                      | Description             |
-   | ----------------- |:---------------------------------------------------------------------------------------------------------------------------:| ----------------------- |
-   | SSDT-AWAC.aml     | [Prebuilt](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-AWAC.aml)            | Required                |
-   | SSDT-EC-USBX.aml  | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-methods/manual.html#edits-to-the-sample-ssdt)    | Required                |
-   | SSDT-GPRW.aml     | [Prebuilt](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-GPRW.aml)                         | Required for Sleep/Wake |
-   | SSDT-HPET.aml     | [SSDTTime](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html)                                         | Optional                |
-   | SSDT-PLUG-ALT.aml | [Prebuilt](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-PLUG-ALT.dsl)                | Required                |
-   | SSDT-SBUS.aml     | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html#edits-to-the-sample-ssdt) | Optional                |
+   | SSDT              | Method                                                                                                                        | Description             |
+   | ----------------- |:-----------------------------------------------------------------------------------------------------------------------------:| ----------------------- |
+   | SSDT-AWAC.aml     | [Prebuilt](https://github.com/dortania/Getting-Started-With-ACPI/blob/master/extra-files/compiled/SSDT-AWAC.aml)              | Required                |
+   | SSDT-EC-USBX.aml  | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-methods/manual.html#edits-to-the-sample-ssdt)      | Required                |
+   | SSDT-GPRW.aml     | [Prebuilt](https://github.com/dortania/OpenCore-Post-Install/blob/master/extra-files/SSDT-GPRW.aml)                           | Required for Sleep/Wake |
+   | SSDT-HPET.aml     | [SSDTTime](https://dortania.github.io/Getting-Started-With-ACPI/Universal/irq.html)                                           | Optional                |
+   | SSDT-PLUG-ALT.aml | [Prebuilt](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-PLUG-ALT.dsl)                  | Required                |
+   | SSDT-SBUS.aml     | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html#edits-to-the-sample-ssdt)   | Optional                |
+   | SSDT-NVME-DISABLE | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Desktops/desktop-disable.html#finding-the-acpi-path-of-the-gpu) | Optional                |
    
    **Note:** *I recommend to manually dumping your DSDT and compile your own SSDT using [SSDTTIme](https://github.com/corpnewt/SSDTTime) (Windows/Linux).*
 
@@ -118,6 +119,7 @@
          │   ├── SSDT-EC-USBX.aml
          │   ├── SSDT-GPRW.aml
          │   ├── SSDT-HPET.aml
+         │   ├── SSDT-NVME-DISABLE.aml
          │   ├── SSDT-PLUG-ALT.aml
          │   └── SSDT-SBUS.aml
          ├── Drivers
@@ -189,7 +191,9 @@
   
   - Just follow this [Github guide](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
 
-- I decide to not using `NVMeFix.kext` since it causing random issue related to storage, like high disk usage, making macOS slow (beachball cursor), and random system fail to boot. After remove `NVMeFix.kext` the problem gone so far.
+- I decide to not using `NVMeFix.kext` since it causing random issue related to storage, l~~ike high disk usage, making macOS slow (beachballing)~~, and random system fail to boot. After remove `NVMeFix.kext` the problem gone so far.
+
+- I noticed high disk usage, beachballing cursor after system idle because macOS keep trying to read NTFS (Windows) drive where it's my Samsung 980 Pro NVMe. So I decide to disable that drive by compiling `SSDT-NVME-DISABLE.aml` or you can try to unmounted the Windows drive every boot to macOS.
 
 ---
 
