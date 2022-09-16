@@ -40,6 +40,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-NVME-DISABLE.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-NVME-DISABLE.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-PLUG-ALT.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -378,15 +386,6 @@
 				<key>model</key>
 				<string>Intel B660 SATA Controller</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1A,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,26,0/0,0</string>
-				<key>device_type</key>
-				<string>Non-Volatile memory controller</string>
-				<key>model</key>
-				<string>WD Black SN850 NVMe SSD</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -418,15 +417,6 @@
 				<key>model</key>
 				<string>Realtek ALC897</string>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x6,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,6,0/0,0</string>
-				<key>device_type</key>
-				<string>Non-Volatile memory controller</string>
-				<key>model</key>
-				<string>Samsung 980 Pro NVMe SSD</string>
-			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -457,13 +447,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>VirtualSMC.kext</string>
+				<string>RadeonSensor.kext</string>
 				<key>Comment</key>
-				<string>V1.3.0</string>
+				<string>V0.3.1 | RadeonSensor.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/VirtualSMC</string>
+				<string>Contents/MacOS/RadeonSensor</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -511,6 +501,24 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
+				<string>VirtualSMC.kext</string>
+				<key>Comment</key>
+				<string>V1.3.0</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/VirtualSMC</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
 				<string>V1.6.1 | WhateverGreen.kext</string>
@@ -529,13 +537,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext</string>
+				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
 				<key>Comment</key>
-				<string>V2.1.6 | AirportBrcmFixup.kext</string>
+				<string>V1.0 | AirPortBrcmNIC_Injector.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AirportBrcmFixup</string>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -547,13 +555,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
+				<string>AirportBrcmFixup.kext</string>
 				<key>Comment</key>
-				<string>V1.0 | AirPortBrcmNIC_Injector.kext</string>
+				<string>V2.1.6 | AirportBrcmFixup.kext</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string></string>
+				<string>Contents/MacOS/AirportBrcmFixup</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -626,24 +634,6 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/CpuTopologyRebuild</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>RadeonSensor.kext</string>
-				<key>Comment</key>
-				<string>V0.3.1 | RadeonSensor.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/RadeonSensor</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -815,7 +805,7 @@
 			<key>DisableRtcChecksum</key>
 			<false/>
 			<key>ExtendBTFeatureFlags</key>
-			<true/>
+			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>ForceAquantiaEthernet</key>
