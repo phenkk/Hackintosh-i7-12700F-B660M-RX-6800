@@ -10,9 +10,9 @@
 
 <img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/78e9042d3687bf2ec131ffefc3904b2da987ba7a/Docs/1-update.png" width="500">
 
-<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/78e9042d3687bf2ec131ffefc3904b2da987ba7a/Docs/2.png" width="500">
-<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/78e9042d3687bf2ec131ffefc3904b2da987ba7a/Docs/3.png" width="500">
-<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/78e9042d3687bf2ec131ffefc3904b2da987ba7a/Docs/4.png" width="500">
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/8bca6d9920ddcf3952a0131b630fe039663d6a62/Docs/2-update.png" width="500">
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/8bca6d9920ddcf3952a0131b630fe039663d6a62/Docs/3-update.png" width="500">
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/8bca6d9920ddcf3952a0131b630fe039663d6a62/Docs/4-update.png" width="500">
 
 <img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/5.jpg" width="250"> <img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/87cbb3ad1b3b653d274ececf035db88c70ab73ef/Docs/6.jpg" width="250">
 
@@ -28,7 +28,7 @@
 
 - ~~Kingston Fury Beast 16GB Dual Channel DDR4 3200MHz~~ [[link]](https://www.kingston.com/en/memory/gaming/kingston-fury-beast-ddr4-memory)
 
-- G.Skill Trident Z Neo DDR4 F4-3600C16D-32GTZN [[link]](https://www.gskill.com/product/165/326/1562839473/F4-3600C16D-32GTZN)
+- G.Skill Trident Z Neo DDR4 F4-3600C16D-32GTZN (@3200MHz CL14) [[link]](https://www.gskill.com/product/165/326/1562839473/F4-3600C16D-32GTZN)
 
 - ~~XFX Speedster Qick AMD Radeon RX 6600 XT 8GB~~ [[link]](https://www.xfxforce.com/shop/xfx-speedster-qick-308-amd-radeon-tm-rx-6600-xt-black)
 
