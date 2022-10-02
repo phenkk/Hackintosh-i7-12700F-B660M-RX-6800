@@ -1,4 +1,4 @@
-# Hackintosh OpenCore + Intel Alder Lake Core i7-12700F + Gigabyte B660M Aorus Pro DDR4 + Radeon RX 6600 XT
+# Hackintosh OpenCore + Intel Alder Lake Core i7-12700F + Gigabyte B660M Aorus Pro DDR4 + Radeon RX 6800
 
 ---
 
@@ -26,13 +26,17 @@
   
   - Intel Ethernet 2.5GbE LAN l225-V
 
-- Kingston Fury Beast 16GB Dual Channel DDR4 3200MHz [[link]](https://www.kingston.com/en/memory/gaming/kingston-fury-beast-ddr4-memory)
+- ~~Kingston Fury Beast 16GB Dual Channel DDR4 3200MHz~~ [[link]](https://www.kingston.com/en/memory/gaming/kingston-fury-beast-ddr4-memory)
 
-- XFX Speedster Qick AMD Radeon RX 6600 XT 8GB [[link]](https://www.xfxforce.com/shop/xfx-speedster-qick-308-amd-radeon-tm-rx-6600-xt-black)
+- G.Skill Trident Z Neo DDR4 F4-3600C16D-32GTZN [[link]](https://www.gskill.com/product/165/326/1562839473/F4-3600C16D-32GTZN)
 
-- Samsung 980 Pro NVMe 500GB (Windows 11) [[link]](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/980-pro-pcie-4-0-nvme-ssd-500gb-mz-v8p500b-am/)
+- ~~XFX Speedster Qick AMD Radeon RX 6600 XT 8GB~~ [[link]](https://www.xfxforce.com/shop/xfx-speedster-qick-308-amd-radeon-tm-rx-6600-xt-black)
 
-- WD Black SN850 NVMe 500 GB (macOS 12) [[link]](https://www.westerndigital.com/products/internal-drives/wd-black-sn850-nvme-ssd#WDS500G1X0E)
+- Gigabyte AORUS Radeon RX 6800 MASTER 16G [[link]](https://www.gigabyte.com/Graphics-Card/GV-R68AORUS-M-16GD#kf)
+
+- Samsung 980 Pro NVMe (Windows 11) [[link]](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/980-pro-pcie-4-0-nvme-ssd-500gb-mz-v8p500b-am/)
+
+- WD Black SN850 NVMe (macOS 12) [[link]](https://www.westerndigital.com/products/internal-drives/wd-black-sn850-nvme-ssd#WDS500G1X0E)
 
 - Midasforce SSD SATA 1TB (Storage) [[link]](https://midasforce.com/product/midasforce-ssd-super-lightning)
 
