@@ -10,9 +10,9 @@
 
 <img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/78e9042d3687bf2ec131ffefc3904b2da987ba7a/Docs/1-update.png" width="500">
 
-<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/78e9042d3687bf2ec131ffefc3904b2da987ba7a/Docs/2.png" width="500">
-<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/78e9042d3687bf2ec131ffefc3904b2da987ba7a/Docs/3.png" width="500">
-<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/78e9042d3687bf2ec131ffefc3904b2da987ba7a/Docs/4.png" width="500">
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/8bca6d9920ddcf3952a0131b630fe039663d6a62/Docs/2-update.png" width="500">
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/8bca6d9920ddcf3952a0131b630fe039663d6a62/Docs/3-update.png" width="500">
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/8bca6d9920ddcf3952a0131b630fe039663d6a62/Docs/4-update.png" width="500">
 
 <img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/5.jpg" width="250"> <img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/87cbb3ad1b3b653d274ececf035db88c70ab73ef/Docs/6.jpg" width="250">
 
