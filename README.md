@@ -4,7 +4,7 @@
 
 | Bootloader | Version | Boot Mode | SMBIOS    | macOS    | Version | Release Date |
 |:----------:|:-------:|:---------:|:---------:|:--------:|:-------:|:------------:|
-| OpenCore   | 0.8.4   | UEFI      | MacPro7,1 | Monterey | 12.6    | 16/09/2022   |
+| OpenCore   | 0.8.5   | UEFI      | MacPro7,1 | Monterey | 12.6    | 09/10/2022   |
 
 ---
 
