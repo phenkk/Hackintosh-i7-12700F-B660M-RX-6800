@@ -28,7 +28,7 @@
 
 - ~~Kingston Fury Beast 16GB Dual Channel DDR4 3200MHz~~ [[link]](https://www.kingston.com/en/memory/gaming/kingston-fury-beast-ddr4-memory)
 
-- G.Skill Trident Z Neo DDR4 F4-3600C16D-32GTZN (@3200MHz CL14) [[link]](https://www.gskill.com/product/165/326/1562839473/F4-3600C16D-32GTZN)
+- G.Skill Trident Z Neo DDR4 F4-3600C16D-32GTZN (@4000MHz CL17) [[link]](https://www.gskill.com/product/165/326/1562839473/F4-3600C16D-32GTZN)
 
 - ~~XFX Speedster Qick AMD Radeon RX 6600 XT 8GB~~ [[link]](https://www.xfxforce.com/shop/xfx-speedster-qick-308-amd-radeon-tm-rx-6600-xt-black)
 
