@@ -8,7 +8,7 @@
 
 ---
 
-<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/78e9042d3687bf2ec131ffefc3904b2da987ba7a/Docs/1-update.png" width="500">
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/a9d28b8fd2066339d38737ea34415cdb45b5750c/Docs/1-update.png" width="500">
 
 <img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/c2183136ad31350f56b3266795ec624b471bb995/Docs/2-updt.png" width="500">
 <img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/8bca6d9920ddcf3952a0131b630fe039663d6a62/Docs/3-update.png" width="500">
