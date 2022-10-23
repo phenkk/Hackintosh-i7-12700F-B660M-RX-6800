@@ -16,6 +16,8 @@
 
 <img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/5.jpg" width="250"> <img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/87cbb3ad1b3b653d274ececf035db88c70ab73ef/Docs/6.jpg" width="250">
 
+Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
+
 ## Specifications:
 
 - 12th Gen Intel Alder Lake Core i7-12700F [[link]](https://www.intel.com/content/www/us/en/products/sku/134592/intel-core-i712700f-processor-25m-cache-up-to-4-90-ghz/specifications.html)
