@@ -4,7 +4,7 @@
 
 | Bootloader | Version | Boot Mode | SMBIOS    | macOS   | Version | Release Date |
 |:----------:|:-------:|:---------:|:---------:|:-------:|:-------:|:------------:|
-| OpenCore   | 0.8.5   | UEFI      | MacPro7,1 | Ventura | 13.0      | 31/10/2022   |
+| OpenCore   | 0.8.5   | UEFI      | MacPro7,1 | Ventura | 13.0    | 31/10/2022   |
 
 ---
 
@@ -81,6 +81,8 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 - [x] DisplayPort Audio (HDMI Audio not tested yet)
 
 - [x] Boot-chime
+
+- [x] Stage Manager (Ventura)
 
 - [x] etc.
 
