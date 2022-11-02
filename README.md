@@ -196,6 +196,10 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
   
   - `PlatformInfo` > `UpdateSMBIOSMode` > `Custom` (default `Create`)
 
+- Disable Windows or other operating system from OpenCore Boot Menu.
+  
+  - `Misc` > `Security` > `ScanPolicy` > `2687747` (default `0`)
+
 - Disable Radeon Zero RPM (Optional):
   
   - Just follow this [Github guide](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
