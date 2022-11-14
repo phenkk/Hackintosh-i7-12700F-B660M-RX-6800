@@ -40,7 +40,9 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 
 - WD Black SN850 NVMe (macOS 13 Ventura) [[link]](https://www.westerndigital.com/products/internal-drives/wd-black-sn850-nvme-ssd#WDS500G1X0E)
 
-- Midasforce SSD SATA 1TB (Storage) [[link]](https://midasforce.com/product/midasforce-ssd-super-lightning)
+- Crucial MX500 SATA SSD 1TB (Storage) [link](https://www.crucial.com/products/ssd/crucial-mx500-ssd)
+
+- Midasforce SATA SSD 1TB (Storage) [[link]](https://midasforce.com/product/midasforce-ssd-super-lightning)
 
 - Broadcom BCM9430 PCIe Adapter WIFI + Bluetooth [[link]](https://www.tokopedia.com/galericomputerba/bcm943602cs-pci-e-wifi-bluetooth-4-0-dekstop-hackintosh?extParam=ivf%3Dfalse%26src%3Dsearch)
 
@@ -83,6 +85,8 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 - [x] Boot-chime
 
 - [x] Stage Manager (Ventura)
+
+- [x] Continuity Camera (Ventura)
 
 - [x] etc.
 
