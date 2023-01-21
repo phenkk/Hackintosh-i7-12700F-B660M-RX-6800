@@ -4,7 +4,7 @@
 
 | Bootloader | Version | Boot Mode | SMBIOS    | macOS   | Version | Release Date |
 |:----------:|:-------:|:---------:|:---------:|:-------:|:-------:|:------------:|
-| OpenCore   | 0.8.6   | UEFI      | MacPro7,1 | Ventura | 13.0.1  | 08/11/2022   |
+| OpenCore   | 0.8.8   | UEFI      | MacPro7,1 | Ventura | 13.1    | 22/01/2023   |
 
 ---
 
@@ -45,6 +45,8 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 - Midasforce SATA SSD 1TB (Storage) [[link]](https://midasforce.com/product/midasforce-ssd-super-lightning)
 
 - Broadcom BCM9430 PCIe Adapter WIFI + Bluetooth [[link]](https://www.tokopedia.com/galericomputerba/bcm943602cs-pci-e-wifi-bluetooth-4-0-dekstop-hackintosh?extParam=ivf%3Dfalse%26src%3Dsearch)
+
+- Xiaomi Mi 2K Gaming Monitor 27 165Hz [link](https://www.mi.com/global/product/mi-2k-gaming-monitor-27/)
 
 - Lenovo Gaming Monitor G27-20 Full HD 144Hz [[link]](https://www.lenovo.com/id/in/monitors/G27-20/)
 
@@ -208,9 +210,13 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
   
   - Just follow this [Github guide](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
 
-- I decide to not using `NVMeFix.kext` since it causing random issue related to storage, l~~ike high disk usage, making macOS slow (beachballing)~~, and random system fail to boot. After remove `NVMeFix.kext` the problem gone so far.
-
 - I noticed high disk usage, beachballing cursor after system idle because macOS keep trying to read NTFS (Windows) drive where it's my Samsung 980 Pro NVMe. So I decide to disable that drive by compiling `SSDT-NVME-DISABLE.aml` or you can try to unmounted the Windows drive every boot to macOS.
+
+- *(Update 22/01/2023)* Since I update the Motherboard BIOS to the latest version at this moment (F21), I need to enable both this option to boot:
+  
+  - `Booter` > `Quirks` > `EnableWriteUnprotector` > `True`
+  
+  - `Booter` > `Quirks` > `SetupVirtualMap` > `True`
 
 ---
 
@@ -220,14 +226,14 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 
 | Motherboard                    | Gigabyte B660M Aorus Pro DDR4 Rev. 1.0 |
 |:------------------------------ | -------------------------------------- |
-| BIOS Version                   | F6<br/>Checksum: 8CF0                  |
-| BIOS Date                      | 12/08/2022                             |
+| BIOS Version                   | F21<br/>Checksum: 25DD                 |
+| BIOS Date                      | 15/11/2022                             |
 | Extreme Memory Profile (X.M.P) | Profile 1                              |
 | Windows 10 Features            | Other OS                               |
 
 * Disabled:
   
-  + Intel Platform Trust Technology (PTT)
+  + Intel Platform Trust Technology (PTT) (Optional)
   
   + Secure Boot
   
