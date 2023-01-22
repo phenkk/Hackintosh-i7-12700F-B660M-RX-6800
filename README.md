@@ -212,9 +212,7 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 
 - I noticed high disk usage, beachballing cursor after system idle because macOS keep trying to read NTFS (Windows) drive where it's my Samsung 980 Pro NVMe. So I decide to disable that drive by compiling `SSDT-NVME-DISABLE.aml` or you can try to unmounted the Windows drive every boot to macOS.
 
-- *(Update 22/01/2023)* Since I update the Motherboard BIOS to the latest version at this moment (F21), I need to enable both this option to boot:
-  
-  - `Booter` > `Quirks` > `EnableWriteUnprotector` > `True`
+- *(Update 22/01/2023)* Since I update the Motherboard BIOS to the latest version at this moment (F21), I need to enable this option to boot:
   
   - `Booter` > `Quirks` > `SetupVirtualMap` > `True`
 
