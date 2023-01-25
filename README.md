@@ -4,7 +4,7 @@
 
 | Bootloader | Version | Boot Mode | SMBIOS    | macOS   | Version | Release Date |
 |:----------:|:-------:|:---------:|:---------:|:-------:|:-------:|:------------:|
-| OpenCore   | 0.8.8   | UEFI      | MacPro7,1 | Ventura | 13.1    | 22/01/2023   |
+| OpenCore   | 0.8.8   | UEFI      | MacPro7,1 | Ventura | 13.1    | 24/01/2023   |
 
 ---
 
@@ -28,11 +28,7 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
   
   - Intel Ethernet 2.5GbE LAN l225-V
 
-- ~~Kingston Fury Beast 16GB Dual Channel DDR4 3200MHz~~ [[link]](https://www.kingston.com/en/memory/gaming/kingston-fury-beast-ddr4-memory)
-
 - G.Skill Trident Z Neo DDR4 F4-3600C16D-32GTZN [[link]](https://www.gskill.com/product/165/326/1562839473/F4-3600C16D-32GTZN)
-
-- ~~XFX Speedster Qick AMD Radeon RX 6600 XT 8GB~~ [[link]](https://www.xfxforce.com/shop/xfx-speedster-qick-308-amd-radeon-tm-rx-6600-xt-black)
 
 - Gigabyte AORUS Radeon RX 6800 MASTER 16G [[link]](https://www.gigabyte.com/Graphics-Card/GV-R68AORUS-M-16GD#kf)
 
@@ -55,6 +51,8 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 - Enermax Revolution D.F. 650W 80+ Gold Full-Modular [[link]](https://www.enermax.com/en/products/revolution-d.f.-650w)
 
 - Deepcool Macube 110 White Case [[link]](https://www.deepcool.com/products/Cases/fulltowercases/Macube-110-White-Micro-ATX-Case/2021/4669.shtml)
+
+- All Fan and AIO by Thermalright
 
 ---
 
@@ -156,7 +154,8 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
          │   ├── SMCProcessor.kext
          │   ├── SMCRadeonGPU.kext
          │   ├── SMCSuperIO.kext
-         │   ├── USBMap.kext
+         │   ├── USBToolBox.kext
+         │   ├── UTBMap.kext
          │   ├── VirtualSMC.kext
          │   └── WhateverGreen.kext
          ├── Resources
@@ -176,7 +175,7 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 
 4. `NVRAM` > `7C436110-AB2A-4BBB-A880-FE41995C9F82`
    
-   `boot-args` > `agdpmod=pikera e1000=0 keepsyms=1 debug=0x100 -v`
+   `boot-args` > `-v agdpmod=pikera e1000=0 keepsyms=1 debug=0x100`
 
 ---
 
@@ -212,10 +211,6 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 
 - I noticed high disk usage, beachballing cursor after system idle because macOS keep trying to read NTFS (Windows) drive where it's my Samsung 980 Pro NVMe. So I decide to disable that drive by compiling `SSDT-NVME-DISABLE.aml` or you can try to unmounted the Windows drive every boot to macOS.
 
-- *(Update 22/01/2023)* Since I update the Motherboard BIOS to the latest version at this moment (F21), I need to enable this option to boot:
-  
-  - `Booter` > `Quirks` > `SetupVirtualMap` > `True`
-
 ---
 
 ### BIOS:
@@ -224,8 +219,8 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 
 | Motherboard                    | Gigabyte B660M Aorus Pro DDR4 Rev. 1.0 |
 |:------------------------------ | -------------------------------------- |
-| BIOS Version                   | F21<br/>Checksum: 25DD                 |
-| BIOS Date                      | 15/11/2022                             |
+| BIOS Version                   | F6<br/>Checksum: 8CF0                  |
+| BIOS Date                      | 12/08/2022                             |
 | Extreme Memory Profile (X.M.P) | Profile 1                              |
 | Windows 10 Features            | Other OS                               |
 
