@@ -149,6 +149,7 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
          │   ├── CPUFriendDataProvider.kext
          │   ├── CpuTopologyRebuild.kext
          │   ├── Lilu.kext
+         │   ├── NVMeFix.kext
          │   ├── RadeonSensor.kext
          │   ├── RestrictEvents.kext
          │   ├── SMCProcessor.kext
