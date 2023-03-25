@@ -4,7 +4,7 @@
 
 | Bootloader | Version | Boot Mode | SMBIOS    | macOS   | Version | Release Date |
 |:----------:|:-------:|:---------:|:---------:|:-------:|:-------:|:------------:|
-| OpenCore   | 0.8.8   | UEFI      | MacPro7,1 | Ventura | 13.2    | 25/01/2023   |
+| OpenCore   | 0.9.0   | UEFI      | MacPro7,1 | Ventura | 13.2.1  | 25/03/2023   |
 
 ---
 
@@ -45,6 +45,8 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 - Xiaomi Mi 2K Gaming Monitor 27 165Hz [link](https://www.mi.com/global/product/mi-2k-gaming-monitor-27/)
 
 - Lenovo Gaming Monitor G27-20 Full HD 144Hz [[link]](https://www.lenovo.com/id/in/monitors/G27-20/)
+
+- Asus ROG Eye S [[link]](https://rog.asus.com/streaming-kits/rog-eye-s-model/)
 
 - dbE 1080p Webcam [[link]](https://www.tokopedia.com/dbeofficial/dbe-c100-full-hd-1080p-webcam-30-fps-glass-lens-2mp-autofocus)
 
@@ -116,6 +118,7 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
    | SSDT-PLUG-ALT.aml | [Prebuilt](https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/AcpiSamples/Source/SSDT-PLUG-ALT.dsl)                  | Required                |
    | SSDT-SBUS.aml     | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/smbus-methods/manual.html#edits-to-the-sample-ssdt)   | Optional                |
    | SSDT-NVME-DISABLE | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Desktops/desktop-disable.html#finding-the-acpi-path-of-the-gpu) | Optional                |
+   | SSDT-RHUB.aml     | [Manual](https://dortania.github.io/Getting-Started-With-ACPI/Universal/rhub-methods/manual.html)                             | Optional                |
    
    **Note:** *I recommend to manually dumping your DSDT and compile your own SSDT using [SSDTTIme](https://github.com/corpnewt/SSDTTime) (Windows/Linux).*
 
@@ -133,6 +136,7 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
          │   ├── SSDT-HPET.aml
          │   ├── SSDT-NVME-DISABLE.aml
          │   ├── SSDT-PLUG-ALT.aml
+         │   ├── SSDT-RHUB.aml
          │   └── SSDT-SBUS.aml
          ├── Drivers
          │   ├── AudioDxe.efi
@@ -176,7 +180,7 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 
 4. `NVRAM` > `7C436110-AB2A-4BBB-A880-FE41995C9F82`
    
-   `boot-args` > `-v agdpmod=pikera e1000=0 keepsyms=1 debug=0x100`
+   `boot-args` > `-v agdpmod=pikera e1000=0 keepsyms=1 debug=0x100 -ctrsmt`
 
 ---
 
