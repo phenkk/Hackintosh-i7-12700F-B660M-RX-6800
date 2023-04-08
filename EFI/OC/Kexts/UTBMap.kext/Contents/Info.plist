@@ -114,6 +114,15 @@
 						CgAAAA==
 						</data>
 					</dict>
+					<key>HS09</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>
+						CwAAAA==
+						</data>
+					</dict>
 					<key>SS01</key>
 					<dict>
 						<key>UsbConnector</key>
