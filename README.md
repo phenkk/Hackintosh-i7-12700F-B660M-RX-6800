@@ -60,7 +60,7 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 
 ## What's Working:
 
-- [x] iServices (iCloud, iMessage, FaceTime, AirDrop, AirPlay, Handoff, Apple Watch to Unlock, ~~SideCar~~)
+- [x] iServices (iCloud, iMessage, FaceTime, AirDrop, AirPlay, Handoff, Apple Watch to Unlock, AirPods, ~~SideCar~~)
 
 - [x] Hardware Acceleration
 
