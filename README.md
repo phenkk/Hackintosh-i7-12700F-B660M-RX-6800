@@ -32,29 +32,49 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 
 - Gigabyte AORUS Radeon RX 6800 MASTER 16G [[link]](https://www.gigabyte.com/Graphics-Card/GV-R68AORUS-M-16GD#kf)
 
-- Samsung 980 Pro NVMe (Windows 11) [[link]](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/980-pro-pcie-4-0-nvme-ssd-500gb-mz-v8p500b-am/)
+- Samsung 980 Pro 1TB NVMe (Windows 11) [[link]](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/980-pro-pcie-4-0-nvme-ssd-500gb-mz-v8p500b-am/)
 
-- WD Black SN850x NVMe (macOS 13 Ventura) [[link]](https://www.westerndigital.com/products/internal-drives/wd-black-sn850-nvme-ssd#WDS500G1X0E)
+- WD Black SN850x 1TB NVMe (macOS 13 Ventura) [[link]](https://www.westerndigital.com/products/internal-drives/wd-black-sn850-nvme-ssd#WDS500G1X0E)
 
 - Crucial MX500 SATA SSD 1TB (Storage) [[link]](https://www.crucial.com/products/ssd/crucial-mx500-ssd)
 
-- Midasforce SATA SSD 1TB (Storage) [[link]](https://midasforce.com/product/midasforce-ssd-super-lightning)
+- Midasforce SATA SSD 1TB (Storage + Manjaro Linux Plasma KDE) [[link]](https://midasforce.com/product/midasforce-ssd-super-lightning)
 
 - Broadcom BCM9430 PCIe Adapter WIFI + Bluetooth [[link]](https://www.tokopedia.com/galericomputerba/bcm943602cs-pci-e-wifi-bluetooth-4-0-dekstop-hackintosh?extParam=ivf%3Dfalse%26src%3Dsearch)
-
-- Xiaomi Mi 2K Gaming Monitor 27 165Hz [[link]](https://www.mi.com/global/product/mi-2k-gaming-monitor-27/)
-
-- Lenovo Gaming Monitor G27-20 Full HD 144Hz [[link]](https://www.lenovo.com/id/in/monitors/G27-20/)
-
-- Asus ROG Eye S [[link]](https://rog.asus.com/streaming-kits/rog-eye-s-model/)
-
-- dbE 1080p Webcam [[link]](https://www.tokopedia.com/dbeofficial/dbe-c100-full-hd-1080p-webcam-30-fps-glass-lens-2mp-autofocus)
 
 - Enermax Revolution D.F. 650W 80+ Gold Full-Modular [[link]](https://www.enermax.com/en/products/revolution-d.f.-650w)
 
 - Deepcool Macube 110 White Case [[link]](https://www.deepcool.com/products/Cases/fulltowercases/Macube-110-White-Micro-ATX-Case/2021/4669.shtml)
 
-- All Fan and AIO by Thermalright
+- All Fan and AIO Liquid Cooler by Thermalright
+  
+  Peripherals:
+  
+  - Xiaomi Mi 2K Gaming Monitor 27 165Hz [[link]](https://www.mi.com/global/product/mi-2k-gaming-monitor-27/)
+  
+  - Lenovo Gaming Monitor G27-20 Full HD 144Hz [[link]](https://www.lenovo.com/id/in/monitors/G27-20/)
+  
+  - Logitech G Pro Wireless Gaming Mouse [[link]](https://www.logitechg.com/en-us/products/gaming-mice/pro-wireless-mouse.910-005270.html)
+  
+  - Fantech Helios XD3 v2 Wireless Gaming Mouse [[link]](https://fantech.id/product/mouse-wireless-gaming-helios-xd3-v2-fantech/)
+  
+  - VortexSeries Mechanical Keyboard GT-8 [[link]](https://vortexseries.net/produk/vortexseries-mechanical-keyboard-gt-8-wireless-75-80-keys/)
+  
+  - Asus ROG Eye S [[link]](https://rog.asus.com/streaming-kits/rog-eye-s-model/)
+  
+  - dbE 1080p Webcam [[link]](https://www.tokopedia.com/dbeofficial/dbe-c100-full-hd-1080p-webcam-30-fps-glass-lens-2mp-autofocus)
+  
+  - Fantech Sonata MH90 Headset [[link]](https://fantech.id/product/headset-gaming-sonata-mh90-mutliplatform/)
+  
+  - Apple AirPods 3rd Generation [[link]](https://www.apple.com/airpods-3rd-generation/)
+  
+  - SUCA Audio DAC-Q3 Pro [[link]](https://www.amazon.ca/SUCA-AUDIO-Headphone-Amplifier-Converter-Headphones/dp/B07V7D6QXK)
+  
+  - ORICO MH4PU USB3.0 Clip-Type HUB [[link]](http://orico.co.id/index.php?id_product=403&controller=product)
+  
+  - Fantech OCA259 Office Chair [[link]]([Fantech OCA259 Kursi Kantor Kerja Jaring Premium Office Chair - Fantech Indonesia](https://fantech.id/product/fantech-oca259-kursi-kantor-kerj/)
+  
+  - Xiaomi Mi Router 4A Gigabit Edition (OpenWRT Firmware) [[link]]([Mi Router 4A | Xiaomi Indonesia](https://www.mi.co.id/id/product/mi-router-4a-gigabit-edition/)
 
 ---
 
