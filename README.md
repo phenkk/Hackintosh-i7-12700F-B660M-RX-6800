@@ -72,7 +72,7 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
   
   - ORICO MH4PU USB3.0 Clip-Type HUB [[link]](http://orico.co.id/index.php?id_product=403&controller=product)
   
-  - Fantech OCA259 Office Chair [[link]]([Fantech OCA259 Kursi Kantor Kerja Jaring Premium Office Chair - Fantech Indonesia](https://fantech.id/product/fantech-oca259-kursi-kantor-kerj/)
+  - Fantech OCA259 Office Chair [[link]](https://fantech.id/product/fantech-oca259-kursi-kantor-kerj/)
   
   - Xiaomi Mi Router 4A Gigabit Edition (OpenWRT Firmware) [[link]]([Mi Router 4A | Xiaomi Indonesia](https://www.mi.co.id/id/product/mi-router-4a-gigabit-edition/)
 
