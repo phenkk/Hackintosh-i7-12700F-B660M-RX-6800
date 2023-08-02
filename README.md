@@ -34,7 +34,7 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 
 - Samsung 980 Pro NVMe (Windows 11) [[link]](https://www.samsung.com/us/computing/memory-storage/solid-state-drives/980-pro-pcie-4-0-nvme-ssd-500gb-mz-v8p500b-am/)
 
-- WD Black SN850 NVMe (macOS 13 Ventura) [[link]](https://www.westerndigital.com/products/internal-drives/wd-black-sn850-nvme-ssd#WDS500G1X0E)
+- WD Black SN850x NVMe (macOS 13 Ventura) [[link]](https://www.westerndigital.com/products/internal-drives/wd-black-sn850-nvme-ssd#WDS500G1X0E)
 
 - Crucial MX500 SATA SSD 1TB (Storage) [[link]](https://www.crucial.com/products/ssd/crucial-mx500-ssd)
 
