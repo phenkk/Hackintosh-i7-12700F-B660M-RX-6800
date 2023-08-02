@@ -74,7 +74,7 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
   
   - Fantech OCA259 Office Chair [[link]](https://fantech.id/product/fantech-oca259-kursi-kantor-kerj/)
   
-  - Xiaomi Mi Router 4A Gigabit Edition (OpenWRT Firmware) [[link]]([Mi Router 4A | Xiaomi Indonesia](https://www.mi.co.id/id/product/mi-router-4a-gigabit-edition/)
+  - Xiaomi Mi Router 4A Gigabit Edition (OpenWRT Firmware) [[link]](https://www.mi.co.id/id/product/mi-router-4a-gigabit-edition/)
 
 ---
 
