@@ -8,17 +8,9 @@
 
 ---
 
-<img src="https://github.com/phenkk/Hackintosh-i7-12700F-B660M-RX-6800/blob/1ea53a038c859236d32bbb7b066575ff566e093c/Docs/1-1.png" width="350">
-
-<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/c2183136ad31350f56b3266795ec624b471bb995/Docs/2-updt.png" width="500">
-<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/8bca6d9920ddcf3952a0131b630fe039663d6a62/Docs/3-update.png" width="500">
-<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/8bca6d9920ddcf3952a0131b630fe039663d6a62/Docs/4-update.png" width="500">
-
-<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-Gigabyte-B660M-Aorus-Pro-DDR4-Navi-23/blob/08cb7c47418a5e157ec16122f405048dd01074f9/Docs/5.jpg" width="250"> <img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/87cbb3ad1b3b653d274ececf035db88c70ab73ef/Docs/6.jpg" width="250">
-
-Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
-
 ## Specifications:
+
+<img src="https://github.com/phenkk/Hackintosh-i7-12700F-B660M-RX-6800/blob/1ea53a038c859236d32bbb7b066575ff566e093c/Docs/1-1.png" width="350">
 
 - 12th Gen Intel Alder Lake Core i7-12700F [[link]](https://www.intel.com/content/www/us/en/products/sku/134592/intel-core-i712700f-processor-25m-cache-up-to-4-90-ghz/specifications.html)
 
@@ -75,6 +67,8 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
   - Fantech OCA259 Office Chair [[link]](https://fantech.id/product/fantech-oca259-kursi-kantor-kerj/)
   
   - Xiaomi Mi Router 4A Gigabit Edition (OpenWRT Firmware) [[link]](https://www.mi.co.id/id/product/mi-router-4a-gigabit-edition/)
+    
+    <img src="https://github.com/phenkk/Hackintosh-i7-12700F-B660M-RX-6800/blob/main/Docs/5.png" width="500">
 
 ---
 
@@ -269,6 +263,15 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
   + Re-Size BAR Support
 
 ---
+## Benchmarks:
+Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
+
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/c2183136ad31350f56b3266795ec624b471bb995/Docs/2-updt.png" width="500">
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/8bca6d9920ddcf3952a0131b630fe039663d6a62/Docs/3-update.png" width="500">
+<img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/8bca6d9920ddcf3952a0131b630fe039663d6a62/Docs/4-update.png" width="500">
+
+<img src="https://github.com/phenkk/Hackintosh-i7-12700F-B660M-RX-6800/blob/main/Docs/6.png" width="500">
+
 
 ## Credits:
 
