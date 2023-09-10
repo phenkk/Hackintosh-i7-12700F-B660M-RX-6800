@@ -273,6 +273,7 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 <img src="https://github.com/phenkk/Hackintosh-Intel-Alder-Lake-B660M-AMD-Radeon-RX-6800/blob/8bca6d9920ddcf3952a0131b630fe039663d6a62/Docs/4-update.png" width="500">
 
 <img src="https://github.com/phenkk/Hackintosh-i7-12700F-B660M-RX-6800/blob/main/Docs/6.png" width="500">
+<img src="https://github.com/phenkk/Hackintosh-i7-12700F-B660M-RX-6800/blob/main/Docs/7.png" width="400">
 
 ## Credits:
 
