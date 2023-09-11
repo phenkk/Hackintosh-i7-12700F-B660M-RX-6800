@@ -154,8 +154,8 @@
          │   └── SSDT-SBUS.aml
          ├── Drivers
          │   ├── AudioDxe.efi
+         │   ├── HfsPlus.efi
          │   ├── OpenCanopy.efi
-         │   ├── OpenHfsPlus.efi
          │   ├── OpenRuntime.efi
          │   ├── ResetNvramEntry.efi
          │   └── ToggleSipEntry.efi
