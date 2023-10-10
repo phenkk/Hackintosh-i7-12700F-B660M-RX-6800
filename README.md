@@ -220,13 +220,22 @@
   
   - `PlatformInfo` > `UpdateSMBIOSMode` > `Custom` (default `Create`)
 
-- Disable Windows or other operating system from OpenCore Boot Menu.
+- Disable Windows or other operating system from OpenCore Boot Menu list.
   
   - `Misc` > `Security` > `ScanPolicy` > `2687747` (default `0`)
 
 - Disable Radeon Zero RPM (Optional):
   
-  - Just follow this [Github guide](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
+  - This method for AMD Radeon RX 6800
+    
+    `DeviceProperties` > `Add` > `PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)`
+    
+    | Key    | Type   | Value       |
+    | ------ | ------ | ----------- |
+    | 0,name | String | ATY,Belknap |
+    | 1,name | String | ATY,Belknap |
+    | 2,name | String | ATY,Belknap |
+    | 3,name | String | ATY,Belknap |
 
 - I noticed high disk usage, beachballing cursor after system idle because macOS keep trying to read NTFS (Windows) drive where it's my Samsung 980 Pro NVMe. So I decide to disable that drive by compiling `SSDT-NVME-DISABLE.aml` or you can try to unmounted the Windows drive every boot to macOS.
 
@@ -280,5 +289,3 @@ Geekbench result [[link]](https://browser.geekbench.com/v5/cpu/17970607)
 - [OpenCore Dortania](https://dortania.github.io/OpenCore-Install-Guide/)
 
 - [OpenCore Alder Lake (12th-Gen Intel) Hackintosh Guidance](https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/?utm_source=share&utm_medium=web2x&context=3https://www.reddit.com/r/hackintosh/comments/sp1zgv/opencore_alder_lake_12thgen_intel_hackintosh/?utm_source=share&utm_medium=web2x&context=3)
-
-- [XFX RX 6600 XT on macOS Monterey and Zero RPM with SoftPowerPlayTable](https://github.com/perez987/RX6600XT-on-macOS-Monterey-and-PowerPlayTable)
