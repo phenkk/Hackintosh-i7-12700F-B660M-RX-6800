@@ -4,7 +4,7 @@
 
 | Bootloader | Version | Boot Mode | SMBIOS    | macOS   | Version | Release Date |
 |:----------:|:-------:|:---------:|:---------:|:-------:|:-------:|:------------:|
-| OpenCore   | 0.9.5   | UEFI      | MacPro7,1 | Ventura | 13.6.1  | 28/10/2023   |
+| OpenCore   | 0.9.6   | UEFI      | MacPro7,1 | Ventura | 13.6.1  | 07/11/2023   |
 
 ---
 
